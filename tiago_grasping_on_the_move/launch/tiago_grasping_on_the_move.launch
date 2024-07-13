@@ -1,0 +1,5 @@
+<launch>
+    <!-- <node name="move_group" pkg="moveit_ros_move_group" type="move_group" output="screen" /> -->
+    <node pkg="tiago_grasping_on_the_move" type="tiago_grasping_on_the_move" name="tiago_grasping_on_the_move" output="screen" />
+    <!-- <node pkg="tiago_grasping_on_the_move" type="tiago_arm" name="tiago_arm" output="screen" /> -->
+</launch>

@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+# import tiago_grasping_on_the_move.BaseController.base_controller
+import tiago_grasping_on_the_move.BaseController.stop_base_controller
+
+if __name__ == '__main__':
+    # tiago_grasping_on_the_move.BaseController.base_controller.main()
+    tiago_grasping_on_the_move.BaseController.stop_base_controller.main()
