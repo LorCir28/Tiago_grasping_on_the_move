@@ -28,8 +28,14 @@ Follow the installation installation instructions on https://wiki.ros.org/Robots
 Source the tiago workspace
 
 ```
-source <PATH_2_TIAGO_WS>/tiago_public_ws/devel/setup.bash
+source <PATH_TO_TIAGO_WS>/tiago_public_ws/devel/setup.bash
 ```
+
+Compile in Release mode by properly setting your catkin workspace
+```
+catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
+```
+
 
 Build your code
 ```
